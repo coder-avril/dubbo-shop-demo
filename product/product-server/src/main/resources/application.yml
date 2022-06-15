@@ -10,5 +10,8 @@ dubbo:
   protocol:
     name: dubbo
     port: 20880
+    dispatcher: all
+    threadpool: fixed
+    threads: 10
   scan:
     base-packages: com.lding.ps
